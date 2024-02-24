@@ -11,10 +11,6 @@ const router = createBrowserRouter([
     },
 ]);
 
-/* 
-Quite uneccessary to create a router for just one component, 
-but the company might want to to more functions later on
-*/
 export const Router = () => {
     return (
         <RouterProvider router={router} />
